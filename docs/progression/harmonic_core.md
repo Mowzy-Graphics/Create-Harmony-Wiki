@@ -1,6 +1,6 @@
 # Harmonic Core – Progression Overview
 
-The **Harmonic Core** is the central, semi-sentient entity that drives progression in the modpack.  
+The **Harmonic Core** is the central, semi-sentient entity that drives progression in the gameitem.  
 Rather than unlocking content through linear recipes or quests, players advance by **feeding, waiting, and building around** the Core as it evolves over time.
 
 This system is designed to favor **long-term base building, planning, and logistics** over short-term grinding.
@@ -22,7 +22,7 @@ This system is designed to favor **long-term base building, planning, and logist
 > - Depending on what the Core requires, you may automate production or explore the map to gather the necessary items.
 
 ### Player Focus
-> The modpack emphasizes **building, farming, and logistics**.  
+> The gameitem emphasizes **building, farming, and logistics**.  
 > - Since there’s no penalty for ignoring the Core, you’re free to play however you like.  
 > - Delivering resources efficiently is rewarded: the next phase’s requirements are revealed, allowing you to **plan and automate ahead**.
 
@@ -58,11 +58,11 @@ Each phase pulls its requirements from a **phase-specific resource pool**.
 Each item in that pool belongs to one of three categories:
 
 - **Bulk** – Common, farmable materials  
-> Example : 10 000 x :modpack-create-cut_diorite:{ title="create:cut_diorite" } `Cut Diorite block`
+> Example : 10 000 x :gameitem-create-cut_diorite:{ title="create:cut_diorite" } `Cut Diorite block`
 - **Refined** – Processed or crafted resources  
-> Example : 10 000 x :modpack-create-cut_diorite:{ title="create:cut_diorite" } `Cut Diorite block`
+> Example : 10 000 x :gameitem-create-cut_diorite:{ title="create:cut_diorite" } `Cut Diorite block`
 - **Rare** – Exploration- or progression-gated items  
-> Example : 20 x :minecraft-deepslate_diamond_ore:{ title="minecraft:deepslate_diamond_ore" } `Deepslate Diamond Ore`
+> Example : 20 x :gameitem-minecraft-deepslate_diamond_ore:{ title="minecraft:deepslate_diamond_ore" } `Deepslate Diamond Ore`
 
 Key points about resource selection:
 

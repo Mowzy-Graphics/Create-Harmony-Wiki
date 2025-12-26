@@ -41,7 +41,7 @@ will nom nom you
 
 ## Hostile Mobs
 
-You can use a :modpack-create-cut_diorite:{ title="create:cut_diorite" } `Cut Diorite block`
+You can use a :gameitem-create-cut_diorite:{ title="create:cut_diorite" } `Cut Diorite block`
 
 ### Ravager
 
