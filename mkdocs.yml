@@ -1,30 +1,73 @@
 site_name: Create Harmony Wiki
 site_url: https://mydomain.org/mysite
+
+# -----------------------
+# Plugins
+# -----------------------
 plugins:
   - search
   - tags
+
+# -----------------------
+# Markdown Extensions
+# -----------------------
+markdown_extensions:
+  - attr_list
+  - admonition
+  - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+
+# -----------------------
+# Theme Configuration
+# -----------------------
 theme:
   name: material
   palette:
     scheme: slate
     primary: deep purple
-    accent: purple
+    accent: deep purple
   favicon: assets/favicon.png
+  icon:
+    logo: material/book-cog
   features:
     - navigation.instant
     - navigation.instant.progress
     - navigation.tracking
     - navigation.tabs
+    - navigation.sections
     - navigation.expand
     - navigation.path
     - navigation.indexes
     - toc.integrate
+    - toc.follow
     - search.highlight
     - search.suggest
     - search.share
+    - content.tooltips
+
+# -----------------------
+# Navigation
+# -----------------------
 nav:
   - Home: index.md
-  - Bestiaire:
-      - Passive Mobs: bestiaire/passive_mobs.md
-      - Neutral Mobs: bestiaire/neutral_mobs.md
-      - Hostile Mobs: bestiaire/hostile_mobs.md
+  - Creatures: creatures/creatures.md
+  - Phases & Progression: 
+    - Harmonic Core: progression/harmonic_core.md
+    - Phases: progression/phases.md
