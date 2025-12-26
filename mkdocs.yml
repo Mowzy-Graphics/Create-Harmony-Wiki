@@ -1,0 +1,30 @@
+site_name: Create Harmony Wiki
+site_url: https://mydomain.org/mysite
+plugins:
+  - search
+  - tags
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: deep purple
+    accent: purple
+  favicon: assets/favicon.png
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - toc.integrate
+    - search.highlight
+    - search.suggest
+    - search.share
+nav:
+  - Home: index.md
+  - Bestiaire:
+      - Passive Mobs: bestiaire/passive_mobs.md
+      - Neutral Mobs: bestiaire/neutral_mobs.md
+      - Hostile Mobs: bestiaire/hostile_mobs.md
