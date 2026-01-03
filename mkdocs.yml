@@ -58,6 +58,8 @@ theme:
     - search.suggest
     - search.share
     - content.tooltips
+extra_css:
+  - stylesheets/admonitions.css
 
 # -----------------------
 # Navigation

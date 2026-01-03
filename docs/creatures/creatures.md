@@ -4,45 +4,148 @@
 
 ## Passive Mobs
 
-### Cow
+!!! passive-mob " "
+    ### Cow
 
-### Squid
+    === "Overview"
+        <div style="text-align: left;">
 
-useless crap
+        | Attribute   | Value          |
+        | ----------- | -------------- |
+        | **Type**    | 🟢 Passive     |
+        | **Health**  | ❤️ 10 HP       |
+        | **Tameable**| ❌             |
 
-### Hamster
+        </div>
 
----
+        A common farm animal found in grassy biomes. Reliable source of food, leather, and milk.
+
+
+    === "Behavior"
+        - Wanders randomly
+        - Flees when attacked
+        - Attracted by wheat
+
+    === "Breeding"
+        ✅ Breedable: Wheat | Baby grows in ~20 min
+
+    === "Drops"
+        Raw Beef *(Cooked if killed by fire)*, Leather
+
+    === "Extra"
+        - Can be milked with a bucket
+        - Immune to minor fall damage
+
+    ---
+
+    ### Pig
+
+    === "Overview"
+        **Type:** 🟢 Passive | **Health:** ❤️ 10 HP | **Tameable:** ❌  
+
+        A common farm animal found in grassy biomes. Reliable source of food, leather, and milk.
+
+    === "Behavior"
+        - Wanders randomly
+        - Flees when attacked
+        - Attracted by wheat
+
+    === "Breeding"
+        ✅ Breedable: Wheat | Baby grows in ~20 min
+
+    === "Drops"
+        Raw Beef (Cooked if killed by fire), Leather
+
+    === "Extra"
+        - Can be milked with a bucket
+        - Immune to minor fall damage
+
+    ---
+
+
 
 ## Neutral Mobs
 
-### Shark
+### Wolf
 
-will nom nom you
+=== "Overview"
+    **Type:** 🟡 Neutral | **Health:** ❤️ 8 HP | **Tameable:** ✅  
+
+    Wild wolves inhabit forests and taigas. Once tamed, they become loyal companions.
+
+=== "Behavior"
+    - Neutral unless attacked
+    - Attacks skeletons
+    - Follows owner when tamed
+
+=== "Taming"
+    ✅ Feed Bones | Random chance per feed | Shows hearts when tamed
+
+=== "Breeding"
+    ✅ Tamed Only: Any meat | Both wolves must be tamed
+
+=== "Drops"
+    ❌ No drops
+
+=== "Extra"
+    - Collar color can be dyed
+    - Can be ordered to sit
+    - Heals when fed meat
 
 ### Iron Golem
 
-<div class="grid cards" markdown>
+=== "Overview"
+    **Type:** 🟡 Neutral | **Health:** ❤️ 100 HP | **Tameable:** ❌  
 
-- :fontawesome-brands-html5: **HTML** for content and structure
-- :fontawesome-brands-js: **JavaScript** for interactivity
-- :fontawesome-brands-css3: **CSS** for text running out of boxes
-- :fontawesome-brands-internet-explorer: **Internet Explorer** ... huh?
+    Village guardian, attacks hostile mobs automatically.
 
-</div>
+=== "Behavior"
+    - Neutral unless villagers or player attacked
+    - Roams village boundaries
 
-=== "Option 1"
+=== "Taming"
+    ❌ Cannot be tamed
 
-    this is some random shit
+=== "Breeding / Summoning"
+    ✅ Summonable: 4 Iron Blocks + 1 Pumpkin | Naturally spawns in villages
 
-=== "Option 2"
+=== "Drops"
+    Iron Ingots (3–5), Poppy (rare)
 
-    this is some other random shit
+=== "Extra"
+    - Immune to fire and fall damage
+    - Deals heavy melee damage
+    - Can be accidentally attacked by players
+
+---
 
 ## Hostile Mobs
 
-You can use a :gameitem-create-cut_diorite:{ title="create:cut_diorite" } `Cut Diorite block`
-
 ### Ravager
 
-### Villager
+=== "Overview"
+    **Type:** 🔴 Hostile | **Health:** ❤️ 100 HP | **Tameable:** ❌  
+
+    Large, aggressive beast that raids villages during Pillager attacks.
+
+=== "Behavior"
+    - Always hostile
+    - Attacks players, villagers, and Iron Golems
+    - Breaks blocks in its path
+    - Can knock back smaller mobs
+
+=== "Taming"
+    ❌ Cannot be tamed
+
+=== "Breeding"
+    ❌ Cannot breed
+
+=== "Drops"
+    - Saddle (guaranteed if killed by player)
+    - Emeralds (0–2)
+    - Ravager Hide (modpack-specific, optional)
+
+=== "Extra"
+    - Resistant to knockback
+    - Moves quickly despite large size
+    - Roars when entering combat

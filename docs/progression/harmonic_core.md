@@ -69,3 +69,8 @@ Key points about resource selection:
 - Required items are **randomly chosen** from the current phase’s pool.  
 - Every playthrough leads to **different farms and logistics**.  
 - The **difficulty and theme** of each phase are controlled by its resource pool.
+
+
+---
+
+[Phases :fontawesome-solid-angle-right:](/Create-Harmony-Wiki/progression/phases/){ .md-button .md-button--primary }

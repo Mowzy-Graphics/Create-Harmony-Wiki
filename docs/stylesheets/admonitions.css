@@ -1,0 +1,54 @@
+/* ---------------- Remove icons & spacing for mob admonitions ---------------- */
+.md-typeset .admonition.passive-mob,
+.md-typeset .admonition.neutral-mob,
+.md-typeset .admonition.hostile-mob,
+.md-typeset details.passive-mob,
+.md-typeset details.neutral-mob,
+.md-typeset details.hostile-mob {
+    margin-top: 0;       /* remove space above */
+    margin-bottom: 0.5em; /* optional: reduce space below */
+}
+
+.md-typeset .admonition.passive-mob > .admonition-title::before,
+.md-typeset details.passive-mob > summary::before,
+.md-typeset .admonition.neutral-mob > .admonition-title::before,
+.md-typeset details.neutral-mob > summary::before,
+.md-typeset .admonition.hostile-mob > .admonition-title::before,
+.md-typeset details.hostile-mob > summary::before {
+    display: none;       /* hide the icon */
+    content: none;       /* remove any leftover content */
+}
+
+
+/* ---------------- PASSIVE MOB ---------------- */
+.md-typeset .admonition.passive-mob,
+.md-typeset details.passive-mob {
+  border-color: rgb(43, 155, 70);
+}
+
+.md-typeset .passive-mob > .admonition-title,
+.md-typeset .passive-mob > summary {
+  background-color: rgba(43, 155, 70, 0.1);
+}
+
+/* ---------------- NEUTRAL MOB ---------------- */
+.md-typeset .admonition.neutral-mob,
+.md-typeset details.neutral-mob {
+  border-color: rgb(218, 165, 32);
+}
+
+.md-typeset .neutral-mob > .admonition-title,
+.md-typeset .neutral-mob > summary {
+  background-color: rgba(218, 165, 32, 0.1);
+}
+
+/* ---------------- HOSTILE MOB ---------------- */
+.md-typeset .admonition.hostile-mob,
+.md-typeset details.hostile-mob {
+  border-color: rgb(220, 53, 69);
+}
+
+.md-typeset .hostile-mob > .admonition-title,
+.md-typeset .hostile-mob > summary {
+  background-color: rgba(220, 53, 69, 0.1);
+}
